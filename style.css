@@ -1,0 +1,288 @@
+@media screen and (max-width: 600px) {
+    html {
+        font-size: 10px;
+    }
+    .navbar-brand {
+        font-size: 2rem;
+    }
+}
+.nav-distance {
+    padding: 2.1% 7.7%;
+}
+.navbar-light .navbar-brand {
+    font-family: NanumSquareR;
+    text-align: left;
+    line-height: 1.68;
+    color: #00bbd3;
+}
+.navbar-light .navbar-toggler {
+    border-color: #ffffff;
+}
+.section {
+    margin-top: 70px;
+}
+.title {
+    font-family: NanumSquareR;
+    text-align: center;
+    line-height: 2;
+    color: #f57f17;
+}
+.subtitle {
+    font-family: NanumSquareR;
+    text-align: center;
+    line-height: 1.68;
+    color: #7e57c2;
+}
+.qoo10jp-link {
+    color: #d3b8ae;
+    font-size: 1.2rem;
+}
+.body {
+    font-family: sans-serif;
+    background-color: #ffffff;
+}
+.file-upload {
+    background-color: #f6f7fa;
+    margin: 0 auto;
+    padding: 13% 0;
+}
+.file-upload-content {
+    display: none;
+    text-align: center;
+}
+#loading {
+    display: none;
+}
+.file-upload-input {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    outline: none;
+    opacity: 0;
+    cursor: pointer;
+}
+.image-upload-wrap {
+    width: 65%;
+    margin: 0 auto;
+    border: 4px dashed #1fb264;
+    position: relative;
+    background-color: #ffffff;
+}
+.image-dropping,
+.image-upload-wrap:hover {
+    background-color: #1fb264;
+    border: 4px dashed #ffffff;
+}
+.image-title-wrap {
+    padding: 0 15px 15px 15px;
+    color: #222;
+}
+.drag-text {
+    text-align: center;
+}
+.drag-text h3 {
+    font-weight: 100;
+    text-transform: uppercase;
+    color: #15824b;
+    padding: 60px 0;
+}
+.file-upload-image {
+    max-height: 200px;
+    max-width: 200px;
+    margin: auto;
+    padding: 10px;
+}
+.try-again-btn {
+    border-radius: 40px;
+    border: solid 1.5px #4caf50;
+    background-color: #4caf50;
+}
+.try-again-text {
+    display: block;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #ffffff;
+    padding: 4px 15px;
+}
+.remove-image:hover {
+    background: #c13b2a;
+    color: #ffffff;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+.remove-image:active {
+    border: 0;
+    transition: all 0.2s ease;
+}
+.bar-container {
+    height: 2.7rem;
+}
+.겨울쿨톤-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    width: 100%;
+    background-color: rgba(235, 166, 190, 0.2);
+}
+.겨울쿨톤-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    background-color: rgba(235, 166, 190, 1);
+}
+.봄웜톤-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    width: 100%;
+    background-color: rgba(117, 204, 84, 0.2);
+}
+.봄웜톤-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    background-color: rgba(117, 204, 84, 1);
+}
+.여름쿨톤-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    width: 100%;
+    background-color: rgba(27, 175, 234, 0.2);
+}
+.여름쿨톤-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    background-color: rgba(27, 175, 234, 1);
+}
+
+.가을웜톤-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    width: 100%;
+    background-color: rgba(251, 176, 59, 0.2);
+}
+.가을웜톤-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    border-radius: 10px;
+    background-color: rgba(251, 176, 59, 1);
+}
+.percent-text {
+    font-size: 1rem;
+    color: #ffffff;
+}
+.color-label {
+    width: 20%;
+    text-align: left;
+    height: 2rem;
+}
+#label-container {
+    width: 80%;
+    margin: 0 auto;
+}
+.result-message {
+    font-size: 2rem;
+}
+.color-explain {
+    font-family: NanumSquareR;
+    font-size: 1.5rem;
+    color: #102027;
+}
+.겨울쿨톤-color-title {
+    font-family: NanumSquareR;
+    text-align: center;
+    line-height: 1.68;
+    color: #e56995;
+}
+.겨울쿨톤-color-celeb {
+    color: #e56995;
+    font-size: 1.2rem;
+}
+
+.여름쿨톤-color-title {
+    font-family: NanumSquareR;
+    text-align: center;
+    line-height: 1.68;
+    color: #548dd4;
+}
+.여름쿨톤-color-celeb {
+    color: #548dd4;
+    font-size: 1.2rem;
+}
+.봄웜톤-color-title {
+    font-family: NanumSquareR;
+    text-align: center;
+    line-height: 1.68;
+    color: #3ba363;
+}
+.봄웜톤-color-celeb {
+    color: #3ba363;
+    font-size: 1.2rem;
+}
+.가을웜톤-color-title {
+    font-family: NanumSquareR;
+    text-align: center;
+    line-height: 1.68;
+    color: #ff6c0a;
+}
+.가을웜톤-color-celeb {
+    color: #ff6c0a;
+    font-size: 1.2rem;
+}
+
+label {
+    cursor: pointer;
+    display: inline-block;
+    width: 90px;
+    height: 41px;
+    box-shadow: 0 0 0 8px #e5e9ea inset;
+    border-radius: 30px;
+    position: relative;
+}
+.photo {
+    background-image: url('https://gd.image-qoo10.jp/IPKN-DUSTMOTH-X-IPKN-%e3%82%af%e3%83%bc%e3%83%ab%e3%83%88%e3%83%bc%e3%83%b3%e3%83%a1%e3%82%a4%e3%82%af-%e3%83%97%e3%83%ac%e3%83%bc%e3%83%b3%e3%82%b5%e3%83%9e%e3%83%bc-%e3%82%b5%e3%83%9e%e3%83%bc%e3%83%96%e3%83%aa%e3%83%bc%e3%82%ba-%e3%83%99%e3%83%ab%e3%83%99%e3%83%83%e3%83%88-%e3%83%aa%e3%83%83%e3%83%97%e3%83%86%e3%82%a3%e3%83%b3%e3%83%88-%e3%83%97%e3%83%ac%e3%83%bc%e3%83%b3%e3%82%a6%e3%82%a3%e3%83%b3%e3%82%bf%e3%83%bc/li/797/617/3060617797.g_400-w_g.jpg');
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    background-clip: border-box;
+    transition: background-size 0.2s;
+    transition-timing-function: cubic-bezier(0.07, 1.41, 0.82, 1.41);
+
+    display: block;
+    width: 190px;
+    height: 190px;
+    text-decoration: none;
+    cursor: pointer;
+    overflow: hidden;
+    text-indent: 100%;
+    white-space: nowrap;
+}
+
+.photo:hover {
+    background-size: 500px;
+}
+.h4 {
+    font-size: calc(1.275rem + 0.3vw);
+}
