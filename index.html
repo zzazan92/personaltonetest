@@ -52,8 +52,8 @@
             </div>
         </nav>
         <section class="section">
-            <h1 class="title">パーソナルカラーテスト</h1>
-            <h2 class="subtitle">僕はウォームトンかな？ クルトンかな？</h2>
+            <h1 class="title">퍼스널 컬러 테스트</h1>
+            <h2 class="subtitle">나는 웜톤일까? 쿨톤일까?</h2>
         </section>
         <section class="qoo10jp pb-3" id="qoo10jp-mid-link">
             <div class="container mt-3 qoo10jp-cover d-flex flex-row-reverse align-items-center">
@@ -73,7 +73,7 @@
                     accept="image/*"
                 />
                 <div class="drag-text">
-                    <h3>ここに顔写真を載せてみてください！</h3>
+                    <h3>여기에 얼굴사진을 올려주세요.</h3>
                 </div>
             </div>
             <div class="file-upload-content">
@@ -82,7 +82,7 @@
                     <div class="spinner-border" role="status">
                         <span class="sr-only"></span>
                     </div>
-                    <p class="text-center">AIがあなたのパーソナルカラーを分析中です。</p>
+                    <p class="text-center">AI가 당신의 퍼스널컬러를 분석중입니다.</p>
                 </div>
                 <p class="result-message"></p>
                 <div id="label-container" class="d-flex flex-column justify-content-around"></div>
@@ -95,7 +95,7 @@
                         class="try-again-btn"
                         onclick="window.location.reload();"
                     >
-                        <span class="try-again-text">他の写真でやり直し</span>
+                        <span class="try-again-text">다른 사진으로 재시도</span>
                     </button>
                 </div>
             </div>
@@ -109,7 +109,7 @@
             <a class="photo" href="https://www.qoo10.jp/shop/IPKN_OFFICIAL" title="photo" id="photo"
                 >photo</a
             >
-            <h4 class="mt-1 text-center">パーソナルトーンのオーダーメードを買いに行きましょう。</h4>
+            <h4 class="mt-1 text-center">퍼스널톤 맞춤 제품 사러가기</h4>
         </section>
         <div id="disqus_thread"></div>
         <script>
@@ -198,32 +198,31 @@
                             var resultTitle, resultExplain, resultCeleb;
                             switch (prediction[0].className) {
                                 case '봄웜톤':
-                                    resultTitle = '明るく華やかな春ワームトーンの童顔お姫様';
+                                    resultTitle = '밝고 화사한 봄웜톤의 동안 공주님';
                                     resultExplain =
-                                        'レンギョウの黄色、薄緑色、薄ピンク、薄オレンジ色のような黄色が加味された色があなたの美貌を一層輝かせてくれる色です。濃いスモーキー化粧はNo No~明るい茶色のヘアでお姫様の可愛らしさをさらに広めてみてください。.';
-                                    resultCeleb = 'ボムワームトーン芸能人:IU、スジ、パク·ボヨン、ソン·ヘギョ
-            ';
+                                        '개나리 노란색, 연녹색, 연핑크, 연한오렌지색과 같이 노란빛이 가미된 색깔이 당신의 미모를 한층 더 빛나게 해주는 색깔입니다.진한 스모키 화장은 No No~밝은 갈색의 헤어로 공주님의 사랑스러움을 더욱 뽐내보세요.';
+                                    resultCeleb = '봄웜톤 연예인: 아이유, 수지, 박보영, 송혜교';
                                     break;
                                 case '여름쿨톤':
-                                    resultTitle = '知的で優雅なカリスマの女王様';
+                                    resultTitle = '지적이고 우아한 카리스마의 여왕님';
                                     resultExplain =
-                                        'ピンク色のリップと冷たくてグレーなアイシェード、そして穏やかなシーマパールがあなたの知的でエレガントな美貌をさらに発散してくれるカラーです。 カラフルな花柄の服やビビッドなリップはNoNo~青色の衣装はあなたの美貌ブースター~';
-                                    resultCeleb = '夏のクルトン芸能人:イ·ヨンエ、キム·ヨナ、ソン·イェジン';
+                                        '핑크색 립과 차갑고 그레이시한 아이쉐도우 그리고 잔잔한 쉬머펄이 당신의 지적이고 우아한 미모를 더욱 발산해주는 색깔입니다. 알록달록 꽃무뉘 옷이나 비비드한 립은 No No~파란색 의상은 당신의 미모부스터~';
+                                    resultCeleb = '여름쿨톤 연예인: 이영애, 김연아, 손예진';
                                     break;
                                 case '가을웜톤':
-                                    resultTitle = '健康でセクシーなアマゾンの女戦士';
+                                    resultTitle = '건강하고 섹시한 아마존의 여전사';
                                     resultExplain =
-                                        '濃いオレンジ色、オレンジ色、茶色など基本的にオレンジ色を加えた色が、あなたの健康的なセクシーさをさらに引き立ててくれる色です。 パステルトーンや明るくて華やかな色はNo No~ トーンダウンした原色は全部似合う真の色合いのファッショニスタ~';
-                                    resultCeleb = '秋のワームトーン芸能人:イ·ヒョリ、パク·シネ、チョン·ジヒョン、ソン·ジヒョ';
+                                        '짙은 오렌지색, 주황색, 갈색 등 기본적으로 오렌지색이 가미된 색깔이 당신의 건강한 섹시미를 더욱 강렬하게 만들어주는 색깔입니다. 파스텔톤이나 밝고 화사한 색깔은 No No~ 톤다운된 원색은 다 잘 어울리는 진정한 색조의 패셔니스타~';
+                                    resultCeleb = '가을웜톤 연예인: 이효리, 박신혜, 전지현, 송지효';
                                     break;
                                 case '겨울쿨톤':
-                                    resultTitle = 'シックで洗練された都市貴族';
+                                    resultTitle = '시크하고 세련된 도시귀족';
                                     resultExplain =
-                                        'ブラック&ホワイトの衣装にバーガンディーリップスティックを塗るだけであなたの肌が冷えるように白い肌が美貌の上位層~！ ヘアブリーチやはつらつとした夏のマリンルックは絶対No No~ ブラック、ホワイト、バーガンディーレッドは冬のクールトーンの定番~';
-                                    resultCeleb = '冬のクルトン芸能人:キム·ヘス、アイリーン、パク·シヨン';
+                                        '블랙&화이트 의상에 버건디 립스틱만 발라도 당신의 시리도록 하얀 피부가 이미 미모상위층~! 헤어탈색이나 발랄한 여름 마린룩은 절대 No No~ 블랙, 화이트, 버건디 레드는 겨울쿨톤의 정석~';
+                                    resultCeleb = '겨울쿨톤 연예인: 김혜수, 아이린, 박시연';
                                     break;
                                 default:
-                                    resultTitle = 'おほっ！ ';
+                                    resultTitle = '오홋！';
                                     resultExplain = '';
                                     resultCeleb = '';
                             }
@@ -254,16 +253,16 @@
                                 var labelTitle;
                                 switch (prediction[i].className) {
                                     case '봄웜톤':
-                                        labelTitle = '春ワームトーン';
+                                        labelTitle = '봄웜톤';
                                         break;
                                     case '여름쿨톤':
-                                        labelTitle = 'サマークルトン';
+                                        labelTitle = '여름쿨톤';
                                         break;
                                     case '가을웜톤':
-                                        labelTitle = '秋ワームトン';
+                                        labelTitle = '가을웜톤';
                                         break;
                                     case '겨울쿨톤':
-                                        labelTitle = '冬のクルトン';
+                                        labelTitle = '겨울쿨톤';
                                         break;
                                         labelTitle = '!@@!';
                                 }
